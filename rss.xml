@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>MonBoPodcast</title>
+    <link>https://monbopodcast.github.io/</link>
+    <description>Description brève</description>
+    <language>fr-fr</language>
+    <itunes:author>Ton nom</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Society & Culture"/>
+    <itunes:image href="https://lien_vers_image.jpg" />
+
+    <item>
+      <title>Épisode 1 : Titre</title>
+      <description>Description de l’épisode</description>
+      <pubDate>Sat, 04 May 2025 10:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/TON_FICHIER/TON_FICHIER.mp3"
+                 length="12345678"
+                 type="audio/mpeg"/>
+      <guid>https://archive.org/details/TON_FICHIER</guid>
+      <itunes:duration>00:12:34</itunes:duration>
+    </item>
+
+  </channel>
+</rss>
